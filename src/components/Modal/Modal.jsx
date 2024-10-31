@@ -8,7 +8,6 @@ import {
   TextField,
 } from "@mui/material";
 import React, { useState } from "react";
-import { ReactComponent as Idea } from "../../assets/image 34.svg";
 
 const FeedbackModal = ({ handleClose, open, setFeedback }) => {
   const [input, setInput] = useState("");
@@ -41,7 +40,6 @@ const FeedbackModal = ({ handleClose, open, setFeedback }) => {
           alignItems={"center"}
         >
           <IconButton>
-            <Idea></Idea>
           </IconButton>
           <Typography variant="h3" component="h2" mr={{ md: 15 }}>
             Provide Additional Feedback
